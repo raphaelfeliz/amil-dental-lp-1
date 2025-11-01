@@ -1,35 +1,65 @@
 import React from 'react';
+import { Users, Building2, Headset } from 'lucide-react';
 import './About.css';
 
 const About: React.FC = () => {
   return (
     <section className="about" id="sobre">
+      <div className="about-background"></div>
+      <div className="about-overlay"></div>
+      
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>Sobre a RootSaúde</h2>
-            <p>
-              Há mais de 20 anos no mercado, a RootSaúde é referência em planos de saúde, 
-              oferecendo segurança, qualidade e inovação no cuidado com você e sua família.
+            <h2 className="about-title animate-highlight-title">
+              Sobre a <span className="about-highlight">Amil Dental</span>
+            </h2>
+            
+            <p className="about-description">
+              Com mais de 20 anos no mercado, a Amil Dental é referência em 
+              planos odontológicos, oferecendo segurança, qualidade e inovação 
+              no cuidado com você e sua família.
             </p>
-            <div className="stats">
-              <div className="stat">
-                <h3>1M+</h3>
-                <p>Clientes Atendidos</p>
+
+            <div className="about-stats">
+              <div className="stat-item">
+                <Users className="stat-icon" />
+                <h3 className="stat-number">1M+</h3>
+                <p className="stat-label">Clientes Atendidos</p>
               </div>
-              <div className="stat">
-                <h3>5.000+</h3>
-                <p>Rede Credenciada</p>
+              
+              <div className="stat-item">
+                <Building2 className="stat-icon" />
+                <h3 className="stat-number">5.000+</h3>
+                <p className="stat-label">Rede Credenciada</p>
               </div>
-              <div className="stat">
-                <h3>24/7</h3>
-                <p>Suporte Médico</p>
+              
+              <div className="stat-item">
+                <Headset className="stat-icon" />
+                <h3 className="stat-number">24/7</h3>
+                <p className="stat-label">Suporte Dedicado</p>
               </div>
             </div>
           </div>
-          <div className="about-image">
-            <div className="placeholder-image">
-              <span>Imagem: Equipe médica profissional</span>
+
+          <div className="about-visual">
+            <div className="phone-mockup">
+              <div className="phone-camera"></div>
+              <div className="phone-screen">
+                <div className="phone-screen-bg animate-gradient-screen"></div>
+                <div className="phone-content">
+                  <div className="phone-logo animate-app-logo">
+                    <img 
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Amil_logo.svg/1200px-Amil_logo.svg.png" 
+                      alt="Logo Amil" 
+                      className="logo-img"
+                    />
+                  </div>
+                  <h3 className="phone-text animate-app-text">
+                    A Inovação no Cuidado Odontológico
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -39,3 +69,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+

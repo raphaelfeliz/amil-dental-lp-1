@@ -15,6 +15,18 @@
   margin: 0 auto;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-image {
+  height: 3.5rem;
+  width: auto;
+  object-fit: contain;
+}
+
 .logo h2 {
   color: #2563eb;
   margin: 0;

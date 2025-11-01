@@ -50,11 +50,12 @@ RootSaúde Landing Page - A modern, responsive health insurance landing page bui
 - **Typography**: Inter font family with proper hierarchy
 
 ## GIT
-- **GitHub Account**: (to be configured)
-- **GitHub User**: (to be configured)
-- **Current Commit**: Initial project setup with modular components
-- **Branch Strategy**: (to be defined - suggest main/develop/feature branches)
-- **Repository Name**: root-saude-lp
+- **GitHub Account**: raphaelfeliz
+- **GitHub User**: raphaelfeliz
+- **Repository URL**: https://github.com/raphaelfeliz/amil-dental-lp-1.git
+- **Current Commit**: e11e1d5 - Initial commit: Modern health insurance landing page with React + TypeScript + Vite
+- **Branch Strategy**: main (primary branch)
+- **Repository Name**: amil-dental-lp-1
 
 ## FIREBASE
 - **Firebase Account**: (placeholder for future deployment)
