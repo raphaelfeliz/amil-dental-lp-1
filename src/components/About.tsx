@@ -11,7 +11,7 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2 className="about-title animate-highlight-title">
+            <h2 className="about-title">
               Sobre a <span className="about-highlight">Amil Dental</span>
             </h2>
             
